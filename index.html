@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page Personnelle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Mon Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#passion">Ma Passion</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- En-tête Hero -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue et bonne visite !</h1>
+            <p>Découvrez mon parcours professionnel et mes passions</p>
+            <button class="btn-primary" onclick="showMessage()">Cliquez-moi !</button>
+        </div>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Qui suis-je ?</h3>
+                    <p>
+                        Je m'appelle <strong>Koyanoueu Franck</strong>, Technicien Informatique
+                        et Développeur Web basé à Abidjan, Côte d’Ivoire.
+                        Je suis diplômé d'une Licence en Informatique.
+                    </p>
+
+                    <h3>Mon Parcours</h3>
+                    <ul class="parcours-list">
+                        <li>Licence en Informatique Générale</li>
+                        <li>Formation Simplon CI (Projet digital & montage vidéo)</li>
+                        <li>Formation WordPress</li>
+                        <li>Développeur Web – ICON SARL</li>
+                        <li>Assistant Gestionnaire Parc Informatique – ATINKOU</li>
+                    </ul>
+                </div>
+
+                <div class="interests">
+                    <h3>Mes Centres d'Intérêt</h3>
+                    <div class="interest-cards">
+                        <div class="card">
+                            <div class="card-icon">💻</div>
+                            <h4>Développement Web</h4>
+                            <p>HTML, CSS, JavaScript, WordPress</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🖥️</div>
+                            <h4>Informatique & Réseaux</h4>
+                            <p>Maintenance et gestion de parc</p>
+                        </div>
+                        <div class="card">
+                            <div class="card-icon">🎨</div>
+                            <h4>Graphisme</h4>
+                            <p>Photoshop et intégration UI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Passion -->
+    <section id="passion" class="passion">
+        <div class="container">
+            <h2>Ma Passion</h2>
+            <div class="passion-content">
+                <div class="passion-text">
+                    <h3>Pourquoi le Développement Web ?</h3>
+                    <p>
+                        J’aime concevoir des solutions digitales utiles,
+                        résoudre des problèmes techniques et créer
+                        des interfaces modernes et accessibles.
+                    </p>
+
+                    <div class="passion-list">
+                        <div class="passion-item">🚀 Créer des projets concrets</div>
+                        <div class="passion-item">🔧 Résoudre des problèmes</div>
+                        <div class="passion-item">🎨 Concevoir des interfaces</div>
+                        <div class="passion-item">👥 Aider les utilisateurs</div>
+                    </div>
+
+                    
+                    <button class="btn-secondary" onclick="toggleDetails()">Plus de détails</button>
+                </div>
+
+                
+                <div class="passion-details" id="detailsBox" style="display: none;">
+                    <h4>Objectifs professionnels</h4>
+                    <ul>
+                        <li>Devenir développeur web confirmé</li>
+                        <li>Créer des applications performantes</li>
+                        <li>Évoluer dans le numérique</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-content">
+                <p>Restons en contact</p>
+                <div class="contact-buttons">
+                    <button class="contact-btn">📧 franckkoyanoueu@gmail.com</button>
+                    <button class="contact-btn">📞 +225 07 98 30 00 75</button>
+                    <button class="contact-btn">📍 Abidjan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Koyanoueu Franck</p>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
